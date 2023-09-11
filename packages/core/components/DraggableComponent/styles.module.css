@@ -1,0 +1,79 @@
+.DraggableComponent {
+  position: relative;
+}
+
+.DraggableComponent-contents {
+  position: relative; /* Reset stacking context */
+}
+
+/* Prevent margin collapsing  */
+.DraggableComponent-contents::before,
+.DraggableComponent-contents::after {
+  content: " ";
+  display: table;
+}
+
+.DraggableComponent-overlay {
+  display: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+  font-family: var(--puck-font-stack);
+}
+
+.DraggableComponent:hover .DraggableComponent-overlay {
+  display: block;
+  background-color: #cdcdcd50;
+  box-shadow: inset 0 0 0 4px var(--puck-color-azure-6);
+}
+
+.DraggableComponent--isModifierHeld:hover .DraggableComponent-overlay {
+  display: none;
+}
+
+.DraggableComponent--isSelected .DraggableComponent-overlay {
+  box-shadow: inset 0 0 0 4px var(--puck-color-azure-6);
+  display: block;
+}
+
+.DraggableComponent-actions {
+  display: none;
+}
+
+.DraggableComponent:hover .DraggableComponent-actions {
+  position: absolute;
+  right: 0;
+  padding: 8px;
+  border-bottom-left-radius: 8px;
+  background: white;
+  display: flex;
+  gap: 4px;
+  border: 1px solid var(--puck-color-grey-8);
+}
+
+.DraggableComponent-actionsLabel {
+  color: var(--puck-color-grey-0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 16px;
+  margin-right: 8px;
+  border-right: 1px solid var(--puck-color-grey-8);
+}
+
+.DraggableComponent-action {
+  background: transparent;
+  border: none;
+  color: var(--puck-color-grey-2);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.DraggableComponent-action:hover {
+  background: var(--puck-color-grey-9);
+  color: var(--puck-color-blue);
+  cursor: pointer;
+}
