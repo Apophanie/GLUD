@@ -134,7 +134,7 @@ export const Hero: ComponentConfig<HeroProps> = {
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
                 borderRadius: 24,
-                height: 356,
+                height: 712,
                 marginLeft: "auto",
                 width: "100%",
               }}
