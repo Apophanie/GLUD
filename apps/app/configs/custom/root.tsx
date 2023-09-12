@@ -39,7 +39,7 @@ function Root({ children, editMode }: RootProps) {
             maxWidth: 1280,
             marginLeft: "auto",
             marginRight: "auto",
-            padding: 24,
+            padding: 100,
             alignItems: "center",
           }}
         >
