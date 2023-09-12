@@ -105,47 +105,6 @@ export const Root = ({ children, layout, editMode }: RootProps) => {
         )}
         {layout !== "sidebar" && children}
       </Layout>
-      <Footer
-        columns={[
-          {
-            title: "Column 1",
-            items: [
-              { url: "#", title: "Link 1" },
-              { url: "#", title: "Link 2" },
-              { url: "#", title: "Link 3" },
-              { url: "#", title: "Link 4" },
-            ],
-          },
-          {
-            title: "Column 2",
-            items: [
-              { url: "#", title: "Link 1" },
-              { url: "#", title: "Link 2" },
-              { url: "#", title: "Link 3" },
-              { url: "#", title: "Link 4" },
-            ],
-          },
-          {
-            title: "Column 3",
-            items: [
-              { url: "#", title: "Link 1" },
-              { url: "#", title: "Link 2" },
-              { url: "#", title: "Link 3" },
-              { url: "#", title: "Link 4" },
-            ],
-          },
-          {
-            title: "Column 4",
-            items: [
-              { url: "#", title: "Link 1" },
-              { url: "#", title: "Link 2" },
-              { url: "#", title: "Link 3" },
-              { url: "#", title: "Link 4" },
-            ],
-          },
-        ]}
-        bottom="Puck demo"
-      />
     </Layout>
   );
 };
