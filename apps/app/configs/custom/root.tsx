@@ -39,7 +39,7 @@ function Root({ children, editMode }: RootProps) {
             maxWidth: 1280,
             marginLeft: "auto",
             marginRight: "auto",
-            padding: 100,
+            padding: 24,
             alignItems: "center",
           }}
         >
@@ -54,15 +54,46 @@ function Root({ children, editMode }: RootProps) {
             LOGO
           </div>
           <nav style={{ display: "flex", marginLeft: "auto", gap: 32 }}>
-            <NavItem label="Home" href={`${editMode ? "" : ""}`} />
-            <NavItem label="GLUD" href={`/GLUD${editMode ? "/edit" : ""}`} />
+            <NavItem label="Home" href={`${editMode ? "/edit" : ""}`} />
+            <NavItem
+              label="Pricing"
+              href={`/pricing${editMode ? "/edit" : ""}`}
+            />
+            <NavItem label="About" href={`/aboutㅋ${editMode ? "/edit" : ""}`} />
           </nav>
         </div>
       </header>
       {children}
+      <Footer>
+        <Footer.List title="Section">
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+        </Footer.List>
+        <Footer.List title="Section">
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+        </Footer.List>
+        <Footer.List title="Section">
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+        </Footer.List>
+        <Footer.List title="Section">
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+          <Footer.Link href="#">Label</Footer.Link>
+        </Footer.List>
+      </Footer>
     </>
   );
 }
 
 export default Root;
+
 
