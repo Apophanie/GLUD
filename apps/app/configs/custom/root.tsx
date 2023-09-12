@@ -54,12 +54,8 @@ function Root({ children, editMode }: RootProps) {
             LOGO
           </div>
           <nav style={{ display: "flex", marginLeft: "auto", gap: 32 }}>
-            <NavItem label="Home" href={`${editMode ? "/edit" : ""}`} />
-            <NavItem
-              label="Pricing"
-              href={`/pricing${editMode ? "/edit" : ""}`}
-            />
-            <NavItem label="About" href={`/about${editMode ? "/edit" : ""}`} />
+            <NavItem label="Home" href={`${editMode ? "" : ""}`} />
+            <NavItem label="GLUD" href={`/GLUD${editMode ? "/edit" : ""}`} />
           </nav>
         </div>
       </header>
@@ -69,3 +65,4 @@ function Root({ children, editMode }: RootProps) {
 }
 
 export default Root;
+
