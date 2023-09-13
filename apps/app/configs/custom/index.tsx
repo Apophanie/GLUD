@@ -117,21 +117,6 @@ export const initialData: Record<string, Data> = {
         type: "VerticalSpace",
         props: { size: "96px", id: "VerticalSpace-1687298110602" },
       },
-      {
-        type: "Hero",
-        props: {
-          title: "편리한 화면구성",
-          description:
-            "보기 쉬운 메인화면으로 더 편하고 쉽게 글을 작성하세요.",
-          id: "Hero-2598219384702",
-          height: "",
-          imageUrl:
-            "https://ifh.cc/g/LL84Rz.jpg",
-          imageMode: "inline",
-          padding: "128px",
-          align: "left",
-        },
-      },
     ],
     root: { title: "Puck Example" },
   },
