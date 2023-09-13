@@ -139,6 +139,40 @@ export const initialData: Record<string, Data> = {
           align: "left",
         },
       },
+      {
+        type: "Hero",
+        props: {
+          title: "음성인식 지원",
+          description:
+            "음성인식으로 더 쉽게 글을 작성해보세요.",
+          buttons: [
+          ],
+          id: "Hero-1726392873691",
+          height: "",
+          imageUrl:
+            "https://ifh.cc/g/SkNnRV.jpg",
+          imageMode: "background",
+          padding: "128px",
+          align: "left",
+        },
+      },
+      {
+        type: "Hero",
+        props: {
+          title: "간편한 글 저장기능",
+          description:
+            "파일 저장 버튼만 누르면 작성한 글이 내 손안에.",
+          buttons: [
+          ],
+          id: "Hero-1729380926103",
+          height: "",
+          imageUrl:
+            "https://ifh.cc/g/LL84Rz.jpg",
+          imageMode: "inline",
+          padding: "128px",
+          align: "left",
+        },
+      },
     ],
     root: { title: "Puck Example" },
   },
