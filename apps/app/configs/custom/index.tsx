@@ -141,11 +141,11 @@ export const initialData: Record<string, Data> = {
       },
       {
         type: "VerticalSpace",
-        props: { size: "40px", id: "VerticalSpace-1687296179388" },
+        props: { size: "40px", id: "VerticalSpace-1687296179723" },
       }
       {
         type: "VerticalSpace",
-        props: { size: "96px", id: "VerticalSpace-1687298110602" },
+        props: { size: "96px", id: "VerticalSpace-1687298110159" },
       },
       {
         type: "Hero",
@@ -166,7 +166,7 @@ export const initialData: Record<string, Data> = {
       },
       {
         type: "VerticalSpace",
-        props: { size: "96px", id: "VerticalSpace-1687298110602" },
+        props: { size: "96px", id: "VerticalSpace-1687298110492" },
       },
       {
         type: "Hero",
@@ -187,7 +187,7 @@ export const initialData: Record<string, Data> = {
       },
       {
         type: "VerticalSpace",
-        props: { size: "96px", id: "VerticalSpace-1687298110602" },
+        props: { size: "96px", id: "VerticalSpace-1687298111726" },
       },
       {
         type: "Hero",
@@ -202,7 +202,7 @@ export const initialData: Record<string, Data> = {
               variant: "secondary",
             },
           ],
-          id: "Hero-1739281648392",
+          id: "Hero-1739281649628",
           height: "",
           imageUrl:
             "",
