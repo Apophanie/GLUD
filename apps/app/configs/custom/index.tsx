@@ -142,7 +142,7 @@ export const initialData: Record<string, Data> = {
       {
         type: "VerticalSpace",
         props: { size: "40px", id: "VerticalSpace-1687296179723" },
-      }
+      },
       {
         type: "VerticalSpace",
         props: { size: "96px", id: "VerticalSpace-1687298110159" },
