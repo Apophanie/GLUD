@@ -55,10 +55,6 @@ function Root({ children, editMode }: RootProps) {
           </div>
           <nav style={{ display: "flex", marginLeft: "auto", gap: 32 }}>
             <NavItem label="Home" href={`${editMode ? "/" : ""}`} />
-            <NavItem
-              label="개인정보 처리 방침"
-              href={`/${editMode ? "/privacy-policy" : ""}`}
-            />
           </nav>
         </div>
       </header>
