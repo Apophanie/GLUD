@@ -123,7 +123,6 @@ export const initialData: Record<string, Data> = {
           title: "편리한 화면구성",
           description:
             "보기 쉬운 메인화면으로 더 편하고 쉽게 글을 작성하세요.",
-          id: "Hero-1687219384702",
           height: "",
           imageUrl:
             "https://ifh.cc/g/LL84Rz.jpg",
