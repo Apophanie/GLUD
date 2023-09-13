@@ -140,6 +140,10 @@ export const initialData: Record<string, Data> = {
         },
       },
       {
+        type: "VerticalSpace",
+        props: { size: "96px", id: "VerticalSpace-1687298110602" },
+      },
+      {
         type: "Hero",
         props: {
           title: "음성인식 지원",
@@ -155,6 +159,10 @@ export const initialData: Record<string, Data> = {
           padding: "128px",
           align: "left",
         },
+      },
+      {
+        type: "VerticalSpace",
+        props: { size: "96px", id: "VerticalSpace-1687298110602" },
       },
       {
         type: "Hero",
@@ -175,14 +183,6 @@ export const initialData: Record<string, Data> = {
       },
     ],
     root: { title: "Puck Example" },
-  },
-  "/pricing": {
-    content: [],
-    root: { title: "Pricing" },
-  },
-  "/about": {
-    content: [],
-    root: { title: "About Us" },
   },
 };
 
