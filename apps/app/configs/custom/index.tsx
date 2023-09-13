@@ -124,11 +124,6 @@ export const initialData: Record<string, Data> = {
           description:
             "보기 쉬운 메인화면으로 더 편하고 쉽게 글을 작성하세요.",
           buttons: [
-            {
-              label: "Download",
-              href: "/Download.page",
-              variant: "secondary",
-            },
           ],
           id: "Hero-1729380926103",
           height: "",
