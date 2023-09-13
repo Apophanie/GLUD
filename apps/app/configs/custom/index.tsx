@@ -185,6 +185,32 @@ export const initialData: Record<string, Data> = {
           align: "left",
         },
       },
+      {
+        type: "VerticalSpace",
+        props: { size: "96px", id: "VerticalSpace-1687298110602" },
+      },
+      {
+        type: "Hero",
+        props: {
+          title: "Writing with GLUD.",
+          description:
+            "버튼을 누르면 글루드 앱으로 이동합니다.",
+          buttons: [
+            {
+              label: "GLUD.app",
+              href: "https://glud.sspzoa.io",
+              variant: "secondary",
+            },
+          ],
+          id: "Hero-1739281648392",
+          height: "",
+          imageUrl:
+            "",
+          imageMode: "inline",
+          padding: "128px",
+          align: "center",
+        },
+      },
     ],
     root: { title: "Puck Example" },
   },
