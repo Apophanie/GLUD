@@ -59,7 +59,7 @@ export const initialData: Record<string, Data> = {
           imageUrl:
             "https://ifh.cc/g/VcaDP2.jpg",
           imageMode: "background",
-          padding: "128px",
+          padding: "160px",
           align: "center",
         },
       },
