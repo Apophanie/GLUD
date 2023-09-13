@@ -141,6 +141,10 @@ export const initialData: Record<string, Data> = {
       },
       {
         type: "VerticalSpace",
+        props: { size: "40px", id: "VerticalSpace-1687296179388" },
+      }
+      {
+        type: "VerticalSpace",
         props: { size: "96px", id: "VerticalSpace-1687298110602" },
       },
       {
@@ -156,7 +160,7 @@ export const initialData: Record<string, Data> = {
           imageUrl:
             "https://ifh.cc/g/SkNnRV.jpg",
           imageMode: "background",
-          padding: "128px",
+          padding: "200px",
           align: "left",
         },
       },
@@ -175,7 +179,7 @@ export const initialData: Record<string, Data> = {
           id: "Hero-1729380926103",
           height: "",
           imageUrl:
-            "https://ifh.cc/g/LL84Rz.jpg",
+            "https://ifh.cc/g/fcbzl1.jpg",
           imageMode: "inline",
           padding: "128px",
           align: "left",
